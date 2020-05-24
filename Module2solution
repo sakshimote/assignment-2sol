@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODULE 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .block1{
+            background-color: grey;
+        }
+        .block2{
+            background-color: grey;
+        }
+        .block3{
+            background-color: grey;
+        }
+        .menu{
+            text-align: center;
+        }
+        .chicken{
+            background-color: hotpink;
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .beef{
+            text-align: right;
+            background-color: red;
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .shushi{
+            text-align: right;
+            background-color: yellow;
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>Our Menu</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="block1">
+            <div style="padding:25px;border:1px solid black;border-radius:7px">
+              <div class="chicken">
+                <h1>Chicken</h1>
+            </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et voluptas ipsum aliquid debitis minus quia error dolor</p>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-4">
+            <div class="block2">
+            <div style="padding:25px;border:1px solid black;border-radius:7px">
+             <div class="beef">
+                <h1>Beef</h1>
+            </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et voluptas ipsum aliquid debitis minus quia error dolor</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+            <div class="block3">
+            <div style="padding:25px;border:1px solid black;border-radius:7px">
+              <div class="shushi">
+                <h1>Shushi</h1>
+            </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et voluptas ipsum aliquid debitis minus quia error dolor</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html
